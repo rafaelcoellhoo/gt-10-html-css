@@ -44,6 +44,9 @@ function calcular(){
         mensagem = "Você está com obesidade grau 2"
     }
 
+    if(imc > 40){
+        mensagem = "Você está com obesidade grau 3"
+    }
 
     //renderizar o resultado na div fim
     fim.innerHTML = `
